@@ -1,0 +1,24 @@
+<DOCTYPE! html>
+    <html>
+        <head>
+            <title>game</title>
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <script src = "main.js" defer></script>
+        </head>
+        <body>
+            <div class="input">
+                <form name="inform" onsubmit="return start(event.preventDefault())" method="GET">
+                   <input type="text" name="move">
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+            <div class="resbox">
+              <p id="result">RESULT!</p>
+            </div>
+
+            <div class="outbox">
+                <p id="cpumove">CPU</p>
+              </div>
+ 
+        </body>
+    </html>

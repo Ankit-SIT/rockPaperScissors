@@ -1,0 +1,28 @@
+div.resbox {
+        margin: auto;
+        text-align: center;
+        width: 60%;
+        background-color: darkviolet;
+        color: deeppink;
+        font-family: monospace;
+        font-size: 50px;
+        padding: 10px;
+        border-color: indigo;
+        border-radius: 2%;
+        border-width: 40px;
+    }
+
+
+    div.outbox {
+        overflow: auto;
+        position: absolute;
+        text-align: center;
+        font-family: monospace;
+        left:0.5%;
+        right:80%;
+        top:5%;
+        width: 70px;
+        background-color:aqua ;
+        color: black; 
+        padding: 10px;
+    }
