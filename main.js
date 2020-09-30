@@ -4,7 +4,7 @@ function validateForm(x) {
        return false;
      }
      else{
-        var regex=/^[a-zA-Z]+$/;                                                                              // Check if string contains integers, if no then quit!
+        var regex=/^[a-zA-Z]+$/;                                                                              // Check if string contains integers, if yes then quit!
          if (!x.match(regex))
          {
            alert("PLEASE ENTER A STRING!");
