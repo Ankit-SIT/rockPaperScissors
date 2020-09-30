@@ -22,7 +22,7 @@ let ret = 0;
   ret = 1;
  else if(userInput == "PAPER")
   ret =  2;
- else if(userInput == "SCISSOR")
+ else if(userInput == "SCISSOR" || userInput == "SCISSORS")
   ret =  3;
  else
   ret = -1;
